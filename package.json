@@ -1,0 +1,51 @@
+{
+  "name": "xr-frame",
+  "version": "0.1.0",
+  "main": "dist/index/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "2.6.11",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^4.5.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "@vue/cli-plugin-eslint": "4.0.0",
+    "babel-eslint": "7.2.3",
+    "eslint": "7.32.0",
+    "eslint-plugin-vue": "latest",
+    "eslint-webpack-plugin": "^3.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "globals": {
+      "TMap": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onekit-ar/xr-frame"
+  },
+  "author": "www.onekit.cn",
+  "license": "MIT"
+}

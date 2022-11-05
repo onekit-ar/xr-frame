@@ -1,0 +1,33 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        "ignores": []
+      }
+    ],
+    "vue/no-duplicate-attributes": [
+      2,
+      {
+        "allowCoexistClass": true,
+        "allowCoexistStyle": true
+      }
+    ],
+    "vue/no-parsing-error": [
+      2,
+      {
+        "x-invalid-end-tag": false
+      }
+    ]
+  }
+}
